@@ -1,11 +1,17 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Sarah Finch (Fillwock) # your name (or website title) here
+logo: "/images/profile-pig.jpg" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Ph.D., Computer Science (2024)
+  <br>
+  Emory University
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  My research interests are in Conversational AI. 
+  I have explored many facets of conversational systems, 
+  including the development and deployment of a personal-experience-oriented dialogue system for large-scale usage 
+  and improving the evaluation of dialogue models through fine-grained behavior analysis. 
+  My most recent and ongoing works focus on improving social understanding and commonsense reasoning in dialogue models in the era of Large Language Models. 
+  # <br><br>
+  # <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
