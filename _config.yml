@@ -1,9 +1,9 @@
 title: Sarah Finch (Fillwock) # your name (or website title) here
 logo: "/images/profile-pic.jpg" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Ph.D., Computer Science (2024)
+  <b>Ph.D., Computer Science (2024)</b>
   <br>
-  Emory University
+  <b>Emory University</b>
   <br><br>
   My research interests are in Conversational AI. 
   I have explored many facets of conversational systems, 
@@ -12,6 +12,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   My most recent and ongoing works focus on improving social understanding and commonsense reasoning in dialogue models in the era of Large Language Models. 
   <br><br>
   <em>Awards:</em>
+  <br>
   Amazon Alexa Prize 3 Winner
   <br>
   Emory George W. Woodruff Fellowship
