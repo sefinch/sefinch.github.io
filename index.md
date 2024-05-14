@@ -89,7 +89,7 @@ Empirical results from human evaluation demonstrating the superiority of the Con
 I was first author on this project, which explored the impact of explicit reasoning against implicit reasoning over commonsense for dialogue response generation by leveraging Large Language Models to implement these strategies. I tested many implementations of these strategies to identify the best-performing prompts for both explicit and implicit reasoning over commonsense for response generation. The findings demonstrate that explicit reasoning leads to better dialogue interactions, improving naturalness, engagement, specificity, and overall response quality. Further experiments underscore the advantage of explicit reasoning by contrasting it with both the state-of-the-art in commonsense-grounded and commonsense-less dialogue models. Subsequent analyses of these findings unveil insights into the effectiveness of various forms of commonsense in generating responses, the key response attributes that shape human perception of response quality, and the particular response traits enhanced through commonsense integration.
 
 Diagram portraying motivation of explicit reasoning over commonsense inferences to guide follow-up response generation:
-<img src="images/dialogue-commonsense-example_cropped.pdf"/>
+<img src="images/dialogue-commonsense-example_cropped.png"/>
 
 Illustrative responses generated through explicit reasoning (CS-E) and implicit reasoning (CS-I) as well as baseline models (Doctor, ChatGPT):
 <img src="images/rgcs_example.png"/>
