@@ -18,18 +18,17 @@ Read the Amazon Technical Proceedings paper [here](https://m.media-amazon.com/im
 
 <b>Learn more about Emora from our [Youtube Playlist](https://www.youtube.com/playlist?list=PLsMGYQfhCveJE1uSslBZjoiRAVHDJoiQa)!</b>
 
-The system architecture of the Emora Chatbot:
-<img src="images/architecture.png"/>
-
-An illustration of the core dialogue logic representing the state-machine-based dialogue flow:
-<img src="images/statemachine.png"/>
-
 An example conversation Emora can hold:
 <img src="images/emora_convo_example.png"/>
 
 The user ratings Emora received during the quarter and semifinal rounds of the competition:
 <img src="images/dailyrating.png"/>
 
+The system architecture of the Emora Chatbot:
+<img src="images/architecture.png"/>
+
+An illustration of the core dialogue logic representing the state-machine-based dialogue flow:
+<img src="images/statemachine.png"/>
 
 
 ### Article QABot using Generative AI
@@ -38,11 +37,11 @@ My internship at Got It AI focused on the development of an article-grounded con
 
 I was hired at the very inception of this idea to explore the best path forward for achieving this technological vision, and I led the development and execution of this project, under the supervision of my supervisor. I worked on the evaluation and integration of numerous approaches to dialogue-relevant tasks into the dialogue system, including information-retrieval, hallucination-detection, and response generation, focusing on prompt-based large language model approaches. By the end of my internship, a initial fully-functional version of the Article QABot was implemented and deployed internally.
 
-The overall Article QABot architecture:
-<img src="images/articlebot_architecture.png"/>
-
 An example prompt Article QABot uses to generate a response for user input "can I apply the morning glow serum at night?"
 <img src="images/articlebot_response_example.png"/>
+
+The overall Article QABot architecture:
+<img src="images/articlebot_architecture.png"/>
 
 The results of my prompt development on measured response correctness for Article QABot:
 <img src="images/articlebot_response_prompt_improvement.png"/>
@@ -74,11 +73,11 @@ Read the TACL 2024 paper [here](https://aclanthology.org/2023.acl-long.839/)!
 
 &#9733; **Trained Model:** Our best-performing ConvoSense-trained model is released through HuggingFace [here](https://huggingface.co/sefinch/ConvoSenseGenerator)!
 
-Illustration of the ConvoSense ChatGPT framework including an example of the prompt: 
-<img src="images/convosense_design.png"/>
-
 Example commonsense inference outputs of the ConvoSense-trained model:
 <img src="images/convosense_model_example_edit.png"/>
+
+Illustration of the ConvoSense ChatGPT framework including an example of the prompt: 
+<img src="images/convosense_design.png"/>
 
 Empirical results from human evaluation demonstrating the superiority of the ConvoSense-trained model against a model trained on the existing human datasets:
 <img src="images/convosense_model_results.png"/>
