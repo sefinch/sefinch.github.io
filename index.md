@@ -78,7 +78,7 @@ Illustration of the ConvoSense ChatGPT framework including an example of the pro
 <img src="images/convosense_design.png"/>
 
 Example commonsense inference outputs of the ConvoSense-trained model:
-<img src="images/convosense_model_example.png"/>
+<img src="images/convosense_model_example_edit.png"/>
 
 Empirical results from human evaluation demonstrating the superiority of the ConvoSense-trained model against a model trained on the existing human datasets:
 <img src="images/convosense_model_results.png"/>
