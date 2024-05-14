@@ -30,8 +30,18 @@ The user ratings Emora received during the quarter and semifinal rounds of the c
 
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### Article QABot using Generative AI
+
+My internship at Got It AI focused on the development of an article-grounded conversational question-answering dialogue system that ingests online FAQ documents in order to offer customer support. I was hired at the very inception of this idea to explore the best path forward for achieving this technological vision, and I led the development and execution of this project, under the supervision of my supervisor. I worked on the evaluation and integration of numerous approaches to dialogue-relevant tasks into the dialogue system, including information-retrieval, hallucination-detection, and response generation, focusing on prompt-based large language model approaches.
+
+The overall Article QABot architecture:
+<img src="images/articlebot_architecture.png"/>
+
+An example prompt Article QABot uses to generate a response for user input "can I apply the morning glow serum at night?"
+<img src="images/articlebot_response_example.png"/>
+
+The results of my prompt development on measured response correctness for Article QABot:
+<img src="images/articlebot_response_prompt_improvement.png"/>
 
 ---
 [Project 3 Title](http://example.com/)
