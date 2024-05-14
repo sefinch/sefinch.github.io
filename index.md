@@ -1,3 +1,23 @@
+# Profile
+  <b>Ph.D., Computer Science (2024)</b>
+  <br>
+  <b>Emory University</b>
+  <br><br>
+  My research interests are in Conversational AI. 
+  I have explored many facets of conversational systems, 
+  including the development and deployment of a personal-experience-oriented dialogue system for large-scale usage 
+  and improving the evaluation of dialogue models through fine-grained behavior analysis. 
+  My most recent and ongoing works focus on improving social understanding and commonsense reasoning in dialogue models in the era of Large Language Models. 
+  <br><br>
+  <em>Awards:</em>
+  <br>
+  Amazon Alexa Prize 3 Winner
+  <br>
+  Emory George W. Woodruff Fellowship
+  <br>
+  Emory Schoettle Research Award
+  <br>
+
 # Portfolio
 
 ===
