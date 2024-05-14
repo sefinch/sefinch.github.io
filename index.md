@@ -1,7 +1,8 @@
 # Portfolio
 
----
+===
 ## Deployed Dialogue Systems
+===
 
 
 ### Emora Chatbot: Winner of Amazon Alexa Prize 3
@@ -31,6 +32,8 @@ An illustration of the core dialogue logic representing the state-machine-based 
 
 * Learn more about Emora from our [Youtube Playlist](https://www.youtube.com/playlist?list=PLsMGYQfhCveJE1uSslBZjoiRAVHDJoiQa)!
 
+---
+
 ### Article QABot using Generative AI
 
 **Overview:** My internship at Got It AI focused on the development of an article-grounded conversational question-answering dialogue system that ingests online FAQ documents in order to offer customer support. 
@@ -48,6 +51,7 @@ The overall Article QABot architecture:
 The results of my prompt development on measured response correctness for Article QABot:
 <img src="images/articlebot_response_prompt_improvement.png"/>
 
+---
 
 ### Emory Virtual Assistant
 
@@ -64,8 +68,9 @@ This is an example of a conversation with the administrative role of the virtual
 
 
 
----
+===
 ## Dialogue Commonsense
+===
 
 ### Improving Commonsense Modeling for Dialogue: ConvoSense
 
@@ -90,6 +95,8 @@ Empirical results from human evaluation demonstrating the superiority of the Con
 
 * &#9733; **Trained Model:** Our best-performing ConvoSense-trained model is released through HuggingFace [here](https://huggingface.co/sefinch/ConvoSenseGenerator)!
 
+---
+
 ### Explicit Reasoning over Commonsense for Dialogue Response Generation
 
 **Overview:** This project explored the impact of explicit reasoning against implicit reasoning over commonsense for dialogue response generation by leveraging Large Language Models to implement these strategies. The findings demonstrate that explicit reasoning leads to better dialogue interactions, improving naturalness, engagement, specificity, and overall response quality. Further experiments underscore the advantage of explicit reasoning by contrasting it with both the state-of-the-art in commonsense-grounded and commonsense-less dialogue models.
@@ -106,9 +113,9 @@ Human evaluation results showing superiority of explicit reasoning (ConvoSense-E
 <img src="images/rgcs_results.png"/>
 
 
----
-
+===
 ## Dialogue Evaluation
+===
 
 ### Novel Fine-grained Dialogue System Evaluation: Annotation of Behaviors in Chat Evaluation (ABC-Eval)
 
