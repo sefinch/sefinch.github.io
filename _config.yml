@@ -2,6 +2,8 @@ title: Sarah Finch (Fillwock) # your name (or website title) here
 logo: "/images/profile-pic.jpg" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
 <br>
+&#9733;
+<br>
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
