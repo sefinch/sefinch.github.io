@@ -6,16 +6,13 @@
 
 I was the co-team-lead for Emory University's 14-person student team participating in the 3rd Amazon Alexa Prize. The goal of this challenge was to develop the most engaging and capable dialogue agent. We were one of 10 teams invited to participate based on our proposal, out of approximately 400 applicants. The competition lasted from August 2019 to July 2020, in which we developed and deployed our chatbot Emora to Amazon Alexa Devices that any user could connect to. In July 2020, we won this year's competition, advancing through two elimination rounds based on user ratings and then receiving the highest overall rating from the panel of final invited judges.
 
+As co-team-lead, I held weekly meetings with Amazon to present our team's progress and coordinate team functions within the schedule of the competition. I also planned and designed the Emora's overall vision and design in collaboration with the other team lead, as well as input from the rest of the developers on the team. I was responsible for multiple dialogue topic handlers, creating conversational flows for topics including science fiction and teleportation, family/work/school-life, and pets.
+
 <b>Code for running the winning Emora is available at the [Emora Github Repository](https://github.com/emora-chat/emora_ap3_parlai).</b>
 
-<b>Emora in the News:</b>
+<b>Emora in the News in an [Amazon Article](https://www.amazon.science/latest-news/alexa-prize-interviews?fbclid=IwAR2Iu7HwssbVvqmy1AB2gSOtZfoOps5nbxcpQqlTLgrz1czMtWnEH5X1JVY) and an [Emory Article](https://news.emory.edu/stories/2020/08/er_alexa_prize/campus.html)!</b>
 
-- [Amazon News Article](https://www.amazon.science/latest-news/alexa-prize-interviews?fbclid=IwAR2Iu7HwssbVvqmy1AB2gSOtZfoOps5nbxcpQqlTLgrz1czMtWnEH5X1JVY)
-- [Emory News Article](https://news.emory.edu/stories/2020/08/er_alexa_prize/campus.html)
-
-<b>Learn more about Emora:</b>
-
-- [Youtube Playlist](https://www.youtube.com/playlist?list=PLsMGYQfhCveJE1uSslBZjoiRAVHDJoiQa)
+<b>Learn more about Emora from our [Youtube Playlist](https://www.youtube.com/playlist?list=PLsMGYQfhCveJE1uSslBZjoiRAVHDJoiQa)!</b>
 
 The system architecture of the Emora Chatbot:
 <img src="images/architecture.png"/>
