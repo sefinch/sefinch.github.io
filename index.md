@@ -3,29 +3,23 @@
   <br>
   <b>Emory University</b>
   <br><br>
-  My research interests are in Conversational AI. 
-  I have explored many facets of conversational systems, 
-  including the development and deployment of a personal-experience-oriented dialogue system for large-scale usage 
-  and improving the evaluation of dialogue models through fine-grained behavior analysis. 
-  My most recent and ongoing works focus on improving social understanding and commonsense reasoning in dialogue models in the era of Large Language Models. 
+  I am interested in designing and deploying LLM-based agents for real-world applications, with enhanced personalization and understanding of users and their individual needs.
+  My research background is in Conversational AI and Natural Language Processing: 
+  * Extensive experience developing conversational agents that can understand human experience with commonsense reasoning and that adapt to the unique specifics of each user
+  * 2 years leading the deployment of different large-scale conversational agents during the Amazon Alexa Prize Socialbot Grand Challenge, in which our socialbot Emora won first place out of 10 teams in 2020
+  * Improved the evaluation of dialogue models through fine-grained behavior analysis and exploration of different human evaluator demographics. 
+  * Deep knowledge of LLM-based methods for data generation and text processing, including classification and segmentation
   <br><br>
+  
   <em>Awards:</em>
-  <br>
-  Amazon Alexa Prize 3 Winner
-  <br>
-  Emory George W. Woodruff Fellowship
-  <br>
-  Emory Schoettle Research Award
-  <br>
-
-# Portfolio
-
-===
-## Deployed Dialogue Systems
-===
+  * Amazon Alexa Prize 3 Winner
+  * Emory George W. Woodruff Fellowship
+  * Emory Schoettle Research Award
 
 
-### Emora Chatbot: Winner of Amazon Alexa Prize 3
+# Deployed Dialogue Systems
+
+### Emora Chatbot: Winner of Amazon Alexa Prize 3 (2020)
 
 **Overview:** The goal of the Amazon Alexa Prize was to develop the most engaging and capable dialogue agent. We were one of 10 teams invited to participate based on our proposal, out of approximately 400 applicants. The competition lasted from August 2019 to July 2020, in which we developed and deployed our chatbot Emora to Amazon Alexa Devices that any user could connect to. In July 2020, we won this year's competition, advancing through two elimination rounds based on user ratings and then receiving the highest overall rating from the panel of final invited judges.
 
@@ -88,9 +82,7 @@ This is an example of a conversation with the administrative role of the virtual
 
 
 
-===
-## Dialogue Commonsense
-===
+# Conversational Agent Commonsense Understanding
 
 ### Improving Commonsense Modeling for Dialogue: ConvoSense
 
@@ -133,9 +125,7 @@ Human evaluation results showing superiority of explicit reasoning (ConvoSense-E
 <img src="images/rgcs_results.png"/>
 
 
-===
-## Dialogue Evaluation
-===
+# Conversational Agent Evaluation
 
 ### Novel Fine-grained Dialogue System Evaluation: Annotation of Behaviors in Chat Evaluation (ABC-Eval)
 
