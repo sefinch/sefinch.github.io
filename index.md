@@ -1,32 +1,11 @@
-# Profile
-  <b>Ph.D., Computer Science (2024)</b>
-  <br>
-  <b>Emory University</b>
-  <br><br>
-  I am interested in designing and deploying LLM-based agents for real-world applications, with enhanced personalization and understanding of users and their individual needs.
-  My research background is in Conversational AI and Natural Language Processing: 
-  * Extensive experience developing conversational agents that can understand human experience with commonsense reasoning and that adapt to the unique specifics of each user
-  * 2 years leading the deployment of different large-scale conversational agents during the Amazon Alexa Prize Socialbot Grand Challenge, in which our socialbot Emora won first place out of 10 teams in 2020
-  * Improved the evaluation of dialogue models through fine-grained behavior analysis and exploration of different human evaluator demographics. 
-  * Deep knowledge of LLM-based methods for data generation and text processing, including classification and segmentation
-  <br><br>
-  
-  <em>Awards:</em>
-  * Amazon Alexa Prize 3 Winner
-  * Emory George W. Woodruff Fellowship
-  * Emory Schoettle Research Award
-
-
 # Deployed Dialogue Systems
 
 ### Emora Chatbot: Winner of Amazon Alexa Prize 3 (2020)
 
 **Overview:** The goal of the Amazon Alexa Prize was to develop the most engaging and capable dialogue agent. We were one of 10 teams invited to participate based on our proposal, out of approximately 400 applicants. The competition lasted from August 2019 to July 2020, in which we developed and deployed our chatbot Emora to Amazon Alexa Devices that any user could connect to. In July 2020, we won this year's competition, advancing through two elimination rounds based on user ratings and then receiving the highest overall rating from the panel of final invited judges.
 
-**Role:** I was the co-team-lead for Emory University's 14-person student team participating in the 3rd Amazon Alexa Prize. As co-team-lead, I held weekly meetings with Amazon to present our team's progress and coordinate team functions within the schedule of the competition. Towards Emora development, I planned and designed the Emora's overall vision and design in collaboration with the other team lead, as well as input from the rest of the developers on the team. I was also responsible for multiple dialogue topic handlers, creating conversational flows for topics including science fiction and teleportation, family/work/school-life, and pets.
-
 An example conversation Emora can hold:
-<img src="images/emora_convo_example.png"/>
+<img src="images/emora_convo_example.png" style="width:50%; height:auto;"/>
 
 The user ratings Emora received during the quarter and semifinal rounds of the competition:
 <img src="images/dailyrating.png"/>
