@@ -1,6 +1,6 @@
 # Portfolio
 
-### Emora Chatbot: Winner of Amazon Alexa Prize 3 (2020)
+### 1. -- Emora Chatbot: Winner of Amazon Alexa Prize 3 (2020)
 
 I was one team lead of the university team who developed the Emora chatbot during the Amazon Alexa Prize Socialbot Grand Challenge and won the competition in 2020, advancing through two elimination rounds based on user ratings and then receiving the highest overall rating from the panel of final invited judges.
 
@@ -27,7 +27,7 @@ The user ratings Emora received during the quarter and semifinal rounds of the c
 
 ---
 
-### Article QABot using Generative AI
+### 2. --Article QABot using Generative AI
 
 As an intern, I developed an article-grounded conversational question-answering dialogue system that ingests online FAQ documents in order to offer customer support. I worked on the evaluation and integration of numerous approaches to dialogue-relevant tasks into the dialogue system, including information-retrieval, hallucination-detection, and response generation, focusing on prompt-based large language model approaches.
 
@@ -47,7 +47,7 @@ Measured response correctness for Article QABot:
 
 ---
 
-### ConvoSenseGenerator
+### 3. -- ConvoSenseGenerator
 
 I developed ConvoSenseGenerator, a fine-tuned T5 model that generates commonsense inferences for a provided dialogue context. It is fine-tuned on a new dialogue commonsense dataset, ConvoSense, collected using GPT that boasts greater contextual novelty, a higher volume of inferences per example, and substantially enriched detail compared to previous datasets. 
 
@@ -73,7 +73,7 @@ Empirical results from human evaluation demonstrating the superiority of the Con
 
 ---
 
-### Explicit Reasoning over Commonsense for Dialogue Response Generation
+### 4. -- Explicit Reasoning over Commonsense for Dialogue Response Generation
 
 I developed a commonsense-grounded chatbot that leverages explicit reasoning similar to chain-of-thought prompting to integrate ConvoSenseGenerator outputs into dialogue response generation using GPT.
 
@@ -89,8 +89,9 @@ Human evaluation results showing superiority of proposed approach (ConvoSense-E)
 <br>
 <img src="images/rgcs_results.png" style="width:50%; height:auto;"/>
 
+---
 
-### Annotation of Behaviors in Chat Evaluation (ABC-Eval): Dialogue System Evaluation Framework
+### 5. -- Annotation of Behaviors in Chat Evaluation (ABC-Eval): Dialogue System Evaluation Framework
 
 I collaborated to develop a novel evaluation framework for chat-oriented dialogue systems that measures the rate of 16 different dialogue behaviors that can be expressed by chatbots. ABC-Eval is a web-based annotation platform that was built on top of the ParlAI Javascript framework with major modifications to support the annotation requirements of the 16 ABC-Eval tasks. 
 
