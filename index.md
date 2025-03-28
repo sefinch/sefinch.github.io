@@ -6,15 +6,21 @@ I was one team lead of the university team who developed the Emora chatbot durin
 
 An example conversation Emora can hold:
 <br>
-<img src="images/emora_convo_example.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/emora_convo_example.png" style="width:90%; height:auto;"/>
+</div>
 
 The system architecture of the Emora Chatbot:
 <br>
-<img src="images/architecture.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/architecture.png" style="width:90%; height:auto;"/>
+</div>
 
 The user ratings Emora received during the quarter and semifinal rounds of the competition:
 <br>
-<img src="images/dailyrating.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/dailyrating.png" style="width:90%; height:auto;"/>
+</div>
 
 **More Information:**
 * Read the Amazon Technical Proceedings paper [here](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexaprize/assets/challenge3/proceedings/Emory-Emora.pdf)
@@ -33,17 +39,21 @@ As an intern, I developed an article-grounded conversational question-answering 
 
 An example prompt for response generation:
 <br>
-<div style="border: 1px solid black; display: inline-block; padding: 10px;">
-  <img src="images/articlebot_response_example.png" style="width:75%; height:auto;"/>
+<div style="border: 1px solid black; display: inline-block; padding: 10px; text-align: center;">
+  <img src="images/articlebot_response_example.png" style="width:90%; height:auto;"/>
 </div>
 
 Overall Article QABot architecture:
 <br>
-<img src="images/articlebot_architecture.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/articlebot_architecture.png" style="width:90%; height:auto;"/>
+</div>
 
 Measured response correctness for Article QABot:
 <br>
-<img src="images/articlebot_response_prompt_improvement.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/articlebot_response_prompt_improvement.png" style="width:90%; height:auto;"/>
+</div>
 
 ---
 
@@ -53,15 +63,21 @@ I developed ConvoSenseGenerator, a fine-tuned T5 model that generates commonsens
 
 Example commonsense inference outputs of the ConvoSenseGenerator:
 <br>
-<img src="images/convosense_model_example_edit.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/convosense_model_example_edit.png" style="width:90%; height:auto;"/>
+</div>
 
 Illustration of the ConvoSense ChatGPT framework including an example of the prompt: 
 <br>
-<img src="images/convosense_design.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/convosense_design.png" style="width:90%; height:auto;"/>
+</div>
 
 Empirical results from human evaluation demonstrating the superiority of the ConvoSenseGenerator:
 <br>
-<img src="images/convosense_model_results.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/convosense_model_results.png" style="width:90%; height:auto;"/>
+</div>
 
 **More Information:**
 
@@ -79,15 +95,21 @@ I developed a commonsense-grounded chatbot that leverages explicit reasoning sim
 
 Example dialogue showing motivation of explicit reasoning over commonsense inferences to guide follow-up response generation:
 <br>
-<img src="images/dialogue-commonsense-example_cropped.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/dialogue-commonsense-example_cropped.png" style="width:90%; height:auto;"/>
+</div>
 
 Illustrative responses generated from the proposed approach (CS-E) and alternatives:
 <br>
-<img src="images/rgcs_example.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/rgcs_example.png" style="width:90%; height:auto;"/>
+</div>
 
 Human evaluation results showing superiority of proposed approach (ConvoSense-E) against alternatives:
 <br>
-<img src="images/rgcs_results.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/rgcs_results.png" style="width:90%; height:auto;"/>
+</div>
 
 ---
 
@@ -97,11 +119,15 @@ I collaborated to develop a novel evaluation framework for chat-oriented dialogu
 
 The online interface for annotating the usage of Correct Facts and Incorrect Facts:
 <br>
-<img src="images/interface_knowledge.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/interface_knowledge.png" style="width:90%; height:auto;"/>
+</div>
 
 The online interface for annotating consistency mistakes:
 <br>
-<img src="images/interface_consistency.png" style="width:75%; height:auto;"/>
+<div style="text-align: center;">
+  <img src="images/interface_consistency.png" style="width:90%; height:auto;"/>
+</div>
 
 **More Information:**
 
