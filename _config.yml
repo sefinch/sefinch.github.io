@@ -9,14 +9,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   <br>
   AI/LLM engineer and researcher with 5+ years of experience in machine learning model development and evaluation for human-computer interaction, text processing, and data generation.
-  <br>
-  My previous projects include:
-  <br>
-  * Deployment of large-scale conversational agents during the Amazon Alexa Prize Socialbot Grand Challenge, in which our socialbot Emora won 1st place out of 10 teams in 2020
-  * LLM-based methods for conversational agents, text processing, and data generation
-  * Developing conversational agents that can understand human experience with commonsense reasoning and that adapt to the unique specifics of each user
-  * Evaluation framework design for dialogue models through fine-grained behavior analysis and exploration of different human evaluator demographics 
-
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
