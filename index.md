@@ -33,7 +33,7 @@ The user ratings Emora received during the quarter and semifinal rounds of the c
 
 ---
 
-### 2. --Article QABot using Generative AI
+### 2. -- Article QABot using Generative AI
 
 Article QABot is an article-grounded conversational question-answering dialogue system that ingests online FAQ documents in order to offer customer support. It is a modular system that incorporates numerous dialogue-relevant tasks, including information-retrieval, hallucination-detection, and response generation, and leverages prompt-based large language model approaches.
 
@@ -91,7 +91,7 @@ Empirical results from human evaluation demonstrating the superiority of the Con
 
 ### 4. -- Explicit Reasoning over Commonsense for Dialogue Response Generation
 
-CS-E is a commonsense-grounded dialogue system that leverages explicit reasoning similar to chain-of-thought prompting to integrate ConvoSenseGenerator outputs into dialogue response generation using GPT. It is highly preferred by human judges compared to alternative dialogue systems.
+ConvoSense-E (CS-E) is a commonsense-grounded dialogue system that leverages explicit reasoning similar to chain-of-thought prompting to integrate ConvoSenseGenerator outputs into dialogue response generation using GPT. It is highly preferred by human judges compared to alternative dialogue systems.
 
 Example dialogue showing motivation of explicit reasoning over commonsense inferences to guide follow-up response generation:
 <br>
