@@ -1,20 +1,20 @@
-# Deployed Dialogue Systems
+# Conversational AI
 
 ### Emora Chatbot: Winner of Amazon Alexa Prize 3 (2020)
 
-**Overview:** The goal of the Amazon Alexa Prize was to develop the most engaging and capable dialogue agent. We were one of 10 teams invited to participate based on our proposal, out of approximately 400 applicants. The competition lasted from August 2019 to July 2020, in which we developed and deployed our chatbot Emora to Amazon Alexa Devices that any user could connect to. In July 2020, we won this year's competition, advancing through two elimination rounds based on user ratings and then receiving the highest overall rating from the panel of final invited judges.
+I was one team lead of the university team who developed the Emora chatbot during the Amazon Alexa Prize Socialbot Grand Challenge and won the competition in 2020, advancing through two elimination rounds based on user ratings and then receiving the highest overall rating from the panel of final invited judges.
 
 An example conversation Emora can hold:
+<br>
 <img src="images/emora_convo_example.png" style="width:50%; height:auto;"/>
 
-The user ratings Emora received during the quarter and semifinal rounds of the competition:
-<img src="images/dailyrating.png"/>
-
 The system architecture of the Emora Chatbot:
+<br>
 <img src="images/architecture.png"/>
 
-An illustration of the core dialogue logic representing the state-machine-based dialogue flow:
-<img src="images/statemachine.png"/>
+The user ratings Emora received during the quarter and semifinal rounds of the competition:
+<br>
+<img src="images/dailyrating.png" style="width:50%; height:auto;"/>
 
 **More Information:**
 * Read the Amazon Technical Proceedings paper [here](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexaprize/assets/challenge3/proceedings/Emory-Emora.pdf)
@@ -29,54 +29,39 @@ An illustration of the core dialogue logic representing the state-machine-based 
 
 ### Article QABot using Generative AI
 
-**Overview:** My internship at Got It AI focused on the development of an article-grounded conversational question-answering dialogue system that ingests online FAQ documents in order to offer customer support. 
+As an intern, I developed an article-grounded conversational question-answering dialogue system that ingests online FAQ documents in order to offer customer support. I worked on the evaluation and integration of numerous approaches to dialogue-relevant tasks into the dialogue system, including information-retrieval, hallucination-detection, and response generation, focusing on prompt-based large language model approaches.
 
-**Role:** I led the development and execution of this project, under the supervision of my supervisor. I worked on the evaluation and integration of numerous approaches to dialogue-relevant tasks into the dialogue system, including information-retrieval, hallucination-detection, and response generation, focusing on prompt-based large language model approaches. By the end of my internship, I had implemented and deployed an initial fully-functional version of the Article QABot internally to the company.
-
-An example prompt Article QABot uses to generate a response for user input "can I apply the morning glow serum at night?"
+An example prompt for response generation:
+<br>
 <div style="border: 2px solid black; display: inline-block; padding: 10px;">
-  <img src="images/articlebot_response_example.png"/>
+  <img src="images/articlebot_response_example.png" style="width:50%; height:auto;"/>
 </div>
 
-The overall Article QABot architecture:
-<img src="images/articlebot_architecture.png"/>
+Overall Article QABot architecture:
+<br>
+<img src="images/articlebot_architecture.png" style="width:50%; height:auto;"/>
 
-The results of my prompt development on measured response correctness for Article QABot:
-<img src="images/articlebot_response_prompt_improvement.png"/>
+Measured response correctness for Article QABot:
+<br>
+<img src="images/articlebot_response_prompt_improvement.png" style="width:50%; height:auto;"/>
 
 ---
 
-### Emory Virtual Assistant
+### ConvoSenseGenerator
 
-**Overview:** The Emory Virtual Assistant is developed to provide both a companion role, talking to students about their daily lives, as well as an administrative role, handling inter-user messages and professor-student meeting scheduling.
+I developed ConvoSenseGenerator, a fine-tuned T5 model that generates commonsense inferences for a provided dialogue context. It is fine-tuned on a new dialogue commonsense dataset, ConvoSense, collected using GPT that boasts greater contextual novelty, a higher volume of inferences per example, and substantially enriched detail compared to previous datasets. 
 
-**Role:** I was a Senior Research Mentor to a group of undergraduate students who were developed a virtual assistant for Emory students and professors.  I attended weekly meetings in which the development team gave status updates and provided guidance towards the design and implementation of the virtual assistant. In addition, I implemented a MongoDB wrapper for the developers to use that simplified the access patterns to the MongoDB infrastructure.
-
-This is an example of a conversation with the companion role of the virtual assistant:
-<img src="images/companion_bot_example.png"/>
-
-This is an example of a conversation with the administrative role of the virtual assistant:
-<img src="images/assistant_bot_example.png"/>
-
-
-
-
-# Conversational Agent Commonsense Understanding
-
-### Improving Commonsense Modeling for Dialogue: ConvoSense
-
-**Overview:** ConvoSense addresses the limitations of existing dialogue datasets in commonsense reasoning by introducing a new synthetic dataset using ChatGPT. ConvoSense boasts greater contextual novelty, a higher volume of inferences per example, and substantially enriched detail than previous datasets. The final collected dataset includes over 500,000 inferences across 12,000 dialogues with 10 popular inference types. I then use this dataset to train more efficient T5 models that are proven to produce more plausible and novel inferences compared to those trained on previous datasets.
-
-**Role:** I was first author on the ConvoSense paper. I tested several strategies for commonsense generation using ChatGPT, leading to the construction of 15 prompts corresponding to 15 commonsense types. I implemented and conducted the collection of the full ConvoSense dataset as well as the subsequent T5 model development. 
-
-Example commonsense inference outputs of the ConvoSense-trained model:
-<img src="images/convosense_model_example_edit.png"/>
+Example commonsense inference outputs of the ConvoSenseGenerator:
+<br>
+<img src="images/convosense_model_example_edit.png" style="width:50%; height:auto;"/>
 
 Illustration of the ConvoSense ChatGPT framework including an example of the prompt: 
-<img src="images/convosense_design.png"/>
+<br>
+<img src="images/convosense_design.png" style="width:50%; height:auto;"/>
 
-Empirical results from human evaluation demonstrating the superiority of the ConvoSense-trained model against a model trained on the existing human datasets:
-<img src="images/convosense_model_results.png"/>
+Empirical results from human evaluation demonstrating the superiority of the ConvoSenseGenerator:
+<br>
+<img src="images/convosense_model_results.png" style="width:50%; height:auto;"/>
 
 **More Information:**
 
@@ -90,36 +75,32 @@ Empirical results from human evaluation demonstrating the superiority of the Con
 
 ### Explicit Reasoning over Commonsense for Dialogue Response Generation
 
-**Overview:** This project explored the impact of explicit reasoning against implicit reasoning over commonsense for dialogue response generation by leveraging Large Language Models to implement these strategies. The findings demonstrate that explicit reasoning leads to better dialogue interactions, improving naturalness, engagement, specificity, and overall response quality. Further experiments underscore the advantage of explicit reasoning by contrasting it with both the state-of-the-art in commonsense-grounded and commonsense-less dialogue models.
+I developed a commonsense-grounded chatbot that leverages explicit reasoning similar to chain-of-thought prompting to integrate ConvoSenseGenerator outputs into dialogue response generation using GPT.
 
-**Role:** I was first author on this project. I tested many implementations of these strategies to identify the best-performing prompts for both explicit and implicit reasoning over commonsense for response generation. I then developed the final dialogue approaches using the identified optimal prompts, and designed and conducted the human evaluation of these approaches.
+Example dialogue showing motivation of explicit reasoning over commonsense inferences to guide follow-up response generation:
+<br>
+<img src="images/dialogue-commonsense-example_cropped.png" style="width:25%; height:auto;"/>
 
-Diagram portraying motivation of explicit reasoning over commonsense inferences to guide follow-up response generation:
-<img src="images/dialogue-commonsense-example_cropped.png"/>
+Illustrative responses generated from the proposed approach (CS-E) and alternatives:
+<br>
+<img src="images/rgcs_example.png" style="width:50%; height:auto;"/>
 
-Illustrative responses generated through explicit reasoning (CS-E) and implicit reasoning (CS-I) as well as baseline models (Doctor, ChatGPT):
-<img src="images/rgcs_example.png"/>
-
-Human evaluation results showing superiority of explicit reasoning (ConvoSense-E) against alternative approaches:
-<img src="images/rgcs_results.png"/>
+Human evaluation results showing superiority of proposed approach (ConvoSense-E) against alternatives:
+<br>
+<img src="images/rgcs_results.png" style="width:50%; height:auto;"/>
 
 
-# Conversational Agent Evaluation
+### Annotation of Behaviors in Chat Evaluation (ABC-Eval): Dialogue System Evaluation Framework
 
-### Novel Fine-grained Dialogue System Evaluation: Annotation of Behaviors in Chat Evaluation (ABC-Eval)
-
-**Overview:** This project presents a novel evaluation framework for chat-oriented dialogue systems that measures the rate of 16 different dialogue behaviors that can be expressed by chatbots. ABC-Eval is shown to be a more reliable, discriminative, and informative evaluation of chatbots compared to the standard evaluations using Likert ratings or Pairwise Comparisons.
-
-**Role:** I was co-first-author on the ABC-Eval paper. My unique contributions to this project were the development of the web-based annotation platform for ABC-Eval that was built on top of the ParlAI Javascript framework with major modifications to support the annotation requirements of the 16 ABC-Eval tasks. In addition, my co-author and I collaborated to identify, design, and pilot the 16 different dialogue behaviors covered by ABC-Eval.
+I collaborated to develop a novel evaluation framework for chat-oriented dialogue systems that measures the rate of 16 different dialogue behaviors that can be expressed by chatbots. ABC-Eval is a web-based annotation platform that was built on top of the ParlAI Javascript framework with major modifications to support the annotation requirements of the 16 ABC-Eval tasks. 
 
 The online interface for annotating the usage of Correct Facts and Incorrect Facts:
-<img src="images/interface_knowledge.png"/>
+<br>
+<img src="images/interface_knowledge.png" style="width:50%; height:auto;"/>
 
-The online interface for annotating consistency mistakes, including Self Contradictions, Partner Contradictions, and Redundant responses:
-<img src="images/interface_consistency.png"/>
-
-The online interface for annotating Empathetic responses and responses that convey a Lack of Empathy:
-<img src="images/interface_empathy (1).png"/>
+The online interface for annotating consistency mistakes:
+<br>
+<img src="images/interface_consistency.png" style="width:50%; height:auto;"/>
 
 **More Information:**
 
